@@ -1,7 +1,9 @@
-const open = document.getElelmentById('open')
-const close = document.getElementById('close')
-const container = document.querySelector('.container')
+const left=document.querySelector('.left')
+const right=document.querySelector('.right')
+const container=document.querySelector('.container')
 
-open.addEventListener('click', () => container.classList.add('show-nav'))
+left.addEventListener('mouseenter', () => container.classList.add('hover-left'))
+left.addEventListener('mouseleave', () => container.classList.remove('hover-left'))
 
-close.addEventListener('click', () => container.classList.remove('show-nav'))
+right.addEventListener('mouseenter', () => container.classList.add('hover-right'))
+right.addEventListener('mouseleave', () => container.classList.remove('hover-right'))
