@@ -111,8 +111,8 @@ nav ul li + li + li {
 }
 
 nav ul li + li + li + li {
-  margin-left: 45px;
-  transform: translateX(-300%);
+  margin-left: 60px;
+  transform: translateX(-400%);
 }
 
 nav a{
