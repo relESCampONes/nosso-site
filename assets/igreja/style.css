@@ -110,6 +110,11 @@ nav ul li + li + li {
   transform: translateX(-200%);
 }
 
+nav ul li + li + li + li {
+  margin-left: 45px;
+  transform: translateX(-300%);
+}
+
 nav a{
   color: #fafafa;
   text-decoration: none;
