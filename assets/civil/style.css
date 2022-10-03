@@ -31,8 +31,8 @@ body::before {
 
 .slider-container {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  height: 85vh;
-  width: 85vw;
+  height: 75vh;
+  width: 75vw;
   position: relative;
   overflow: hidden;
 }
