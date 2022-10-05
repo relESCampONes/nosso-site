@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap');
 
 :root {
   --left-bg-color: rgba(188, 188, 188, 0.7);
@@ -23,7 +23,7 @@
   }
 
   h1 {
-    font-family: 'Tangerine';
+    font-family: 'Tangerine', sans-serif;
     font-size: 4rem;
     color: #fff;
     position: absolute;
